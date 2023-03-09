@@ -1,0 +1,24 @@
+header {
+    font-family: 'VT323', monospace;
+    background-color: lightblue;
+  }
+  main {
+    font-family: 'Delius', cursive;
+     background-color: lightgrey;
+  }
+  
+  #nested-row {
+    border: 2px solid red;
+  }
+  #nested-row > .col-md-6 {
+    border: 2px solid blue;
+  }
+  
+  #nested-row > .col-md-6 > .row {
+    border: 2px solid green;
+  }
+
+  img{
+    max-width: 30%;
+    max-height: 30%;
+  }
